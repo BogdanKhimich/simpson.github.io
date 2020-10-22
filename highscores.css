@@ -1,0 +1,40 @@
+body {
+    color: #fff;
+}
+
+#highScoresList {
+    list-style: none;
+    margin-bottom: 4rem;
+}
+
+#highScores {
+    background: no-repeat url("back.jpg");
+    background-size: cover;
+    width: 800px;
+    height: 600px;
+
+    position: relative;
+}
+.high-score {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+}
+.btn.home {
+    color: white;
+}
+
+.simpsonn5 {
+    position: absolute;
+    /* bottom: 140px; */
+    top: 100px;
+    right: 0;
+    width: 200px;
+}
+.simpsonn6 {
+    position: absolute;
+    /* bottom: 140px; */
+
+    left: 0;
+    bottom: 0;
+    width: 200px;
+}

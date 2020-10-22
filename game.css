@@ -1,0 +1,156 @@
+div.containerr {
+    width: 1000px !important;
+    margin: 0 auto;
+}
+.wrapper {
+    display: block;
+
+    width: 1000px;
+    box-sizing: content-box;
+    height: 800px;
+    background: no-repeat url("back.jpg");
+    background-size: cover;
+    position: relative;
+}
+#game {
+    width: 400px;
+    margin: 0 auto;
+}
+#hud {
+    font-weight: 600;
+    color: #474747c4;
+}
+.simpsonn {
+    display: flex;
+
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 350px;
+}
+.simpsonn1 {
+    position: absolute;
+    bottom: 0;
+    margin-left: -300;
+    width: 250px;
+}
+.simpsonn2 {
+    position: absolute;
+    /* bottom: 140px; */
+    top: 200px;
+    left: 0;
+    width: 250px;
+}
+.simpsonn3 {
+    position: absolute;
+    /* bottom: 140px; */
+    top: 100px;
+    right: 0;
+    width: 250px;
+}
+.simpsonn4 {
+    position: absolute;
+    /* bottom: 140px; */
+
+    right: 0;
+    bottom: 0;
+    width: 250px;
+}
+.question {
+    position: absolute;
+    top: 450px;
+    margin: 0 auto;
+    z-index: 10;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 500px;
+    border-radius: 4px;
+    background: #f0eeea;
+    font-size: 3rem;
+    max-width: 40rem;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 gray;
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+.choice-prefix {
+    padding: 2rem 2.5rem;
+    color: black;
+}
+
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+}
+
+.correct {
+    background: linear-gradient(32deg, 0%, rgb(41, 232, 111) 100%);
+}
+
+.incorrect {
+    background: #ef1606e8;
+}
+
+/* Heads up Display */
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#progressBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid #0ac724bd;
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    height: 100%;
+    background: #0ac724bd;
+    width: 0%;
+}
+
+@media screen and (max-width: 768px) {
+    .choice-container {
+        min-width: 40rem;
+    }
+}
+
+h1#question {
+    display: block;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    color: #474747c4 !important;
+    font-weight: 900;
+}
+#score {
+    color: #0ac724bd;
+}
+.choice-text {
+    color: black;
+}
+
+.btn.bt {
+    position: absolute;
+    padding: 0;
+    width: 150px;
+    right: 0;
+}
